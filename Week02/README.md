@@ -28,12 +28,12 @@
 클로저 구조의 예제
 <br>
 function showName(firstName, lastName) { <br>
-    var nameIntro = "Your name is "; <br>
-    // 외부함수의 변수뿐만 아니라 배개변수 까지 사용할 수 있다. <br>
-    function makeFullName() { <br>
-        return nameIntro + firstName + " " + lastName; <br>
-    } <br>
-    return makeFullName(); <br>
+$emsp;    var nameIntro = "Your name is "; <br>
+$emsp;    // 외부함수의 변수뿐만 아니라 배개변수 까지 사용할 수 있다. <br>
+$emsp;    function makeFullName() { <br>
+$emsp;$emsp;        return nameIntro + firstName + " " + lastName; <br>
+$emsp;    } <br>
+$emsp;    return makeFullName(); <br>
 } <br>
 showName("Michael", "Jackson"); // Your name is Michael Jackson
  
