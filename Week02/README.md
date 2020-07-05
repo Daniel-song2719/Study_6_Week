@@ -12,6 +12,7 @@
 <br>
 전역스코프는 블록 밖이든 안이든 어느곳에서나 접근이 가능하다.
 <br>
+<br>
 2. 지역 스코프 (block scope)
 <br>
 <br>
@@ -26,16 +27,16 @@
 <br>
 클로저 구조의 예제
 <br>
-function showName(firstName, lastName) {
-    var nameIntro = "Your name is ";
-    // 외부함수의 변수뿐만 아니라 배개변수 까지 사용할 수 있다.
-    function makeFullName() {
-        return nameIntro + firstName + " " + lastName;
-    }
-    return makeFullName();
-}
+function showName(firstName, lastName) { <br>
+    var nameIntro = "Your name is "; <br>
+    // 외부함수의 변수뿐만 아니라 배개변수 까지 사용할 수 있다. <br>
+    function makeFullName() { <br>
+        return nameIntro + firstName + " " + lastName; <br>
+    } <br>
+    return makeFullName(); <br>
+} <br>
 showName("Michael", "Jackson"); // Your name is Michael Jackson
-
+ 
 
 ## 호이스팅 (Hoisting)
 선언과 실행의 작성 순서와 상관없이 선언 부분이 해당 범위의 최상단으로 자동으로 끌어롤려지는것을 말한다.
