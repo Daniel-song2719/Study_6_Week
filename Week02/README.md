@@ -115,6 +115,7 @@ async 와 await 을 사용하면 동기식으로 코드를 작성하는것 처�
 <br>
 기존에 존재하는 프로미스 위에 조금 더 간편한 api 를 제공
 <br>
+promise 만 사용
 <br>
 function fetchUser(){<br>
   &emsp;    return new Promise((resolve, reject) => {<br>
@@ -152,13 +153,13 @@ async 가 붙은 함수 안에서만 쓸 수 있음
     }<br>
 <br>
     async function getApple(){<br>
-        await delay(2000);  &emsp;  &emsp;   // await 를 쓰게되면 딜레이가 끝날 때 까지 기다려줌<br>
-        return 'apple';     &emsp;  &emsp;   // 2초가 지나고 사과를 출력하는 프로미스가 만들어짐 <br>
+  &emsp;      await delay(2000);  &emsp;  &emsp;   // await 를 쓰게되면 딜레이가 끝날 때 까지 기다려줌<br>
+&emsp;        return 'apple';     &emsp;  &emsp;   // 2초가 지나고 사과를 출력하는 프로미스가 만들어짐 <br>
     }<br>
 <br>
     async function getBanana(){<br>
-        await delay(2000);<br>
-        return 'banana';<br>
+   &emsp;     await delay(2000);<br>
+ &emsp;       return 'banana';<br>
     }<br>
 
 
