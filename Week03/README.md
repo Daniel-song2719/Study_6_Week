@@ -9,16 +9,17 @@ Ajax 의 특징은 비동기성 이고, 예를 들어, 페이지 내에 어떤 �
 Ajax 의 주요 특징은, 페이지의 새로 고침 없이 서버에 요청 할 수 있는 것이고, 서버로부터 데이터를 받고 작업을 수행 하는 것이다. (비동기성)
 <br>
 <br>
-Ajax 의 장점                                  Ajax 의 단점
+Ajax 의 장점                &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                   Ajax 의 단점
 <br>
-웹 페이지 속도 향상       &emsp;&emsp;&emsp;&emsp;        히스토리 관리가 안됨 (보안에 신경써야함)
+웹 페이지 속도 향상       &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;         히스토리 관리가 안됨 (보안에 신경써야함)
 <br>
-비동기적으로 작업 수행이 가능   &emsp;&emsp;&emsp;&emsp;  연속으로 데이터를 요청하면 서버 부하가 증가
+비동기적으로 작업 수행이 가능   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;   연속으로 데이터를 요청하면 서버 부하가 증가
 <br>
-웹 UI 의 다양성 확보      &emsp;&emsp;&emsp;&emsp;        요청이 완료되지 않았는데 페이지를 떠나면 오작동의 가능성이 있음     
+웹 UI 의 다양성 확보      &emsp;&emsp;&emsp;&emsp;  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;       요청이 완료되지 않았는데 페이지를 떠나면 오작동의 가능성이 있음     
 <br>
 <br>
 Ajax 의 단점
+<br>
 히스토리 관리가 안됨 (보안에 신경써야함)
 <br>
 연속으로 데이터를 요청하면 서버 부하가 증가    
@@ -53,7 +54,7 @@ var sammy = {
 <br>
 &emsp;&emsp;"last_name"   :  "Shark", 
 <br>
-"online"      :  true 
+&emsp;&emsp;"online"      :  true 
 <br>
 }
 <br>
