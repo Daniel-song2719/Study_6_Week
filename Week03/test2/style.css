@@ -1,0 +1,38 @@
+@import "bourbon";
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  padding: rem(30);
+}
+
+.search {
+  width: 100%;
+  height: rem(50);
+  margin-bottom: rem(30);
+  padding: rem(10) rem(15);
+  font-size: rem(40);
+  color: orangered;
+  border: rem(1) solid orangered;
+}
+
+.post {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  text-align: center;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.post__title {
+  color: orangered;
+  .post:hover & {
+    text-decoration: underline;
+  }
+}
+
+.highlight {
+  background-color: #F5D76E;
+}
